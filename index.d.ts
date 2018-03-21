@@ -42,11 +42,11 @@ interface SelectableGroupProperties<T = any, K extends keyof ElementTagNameMap =
 export class SelectableGroup extends React.Component<SelectableGroupProperties> {}
 
 /** Additional `Selectable` component properties */
-interface SeelctableProperties<T> {
+interface SelectableProperties<T> {
   selectableKey?: T;
 }
 
 /** Create a `Selectable` component from an existing component. */
 export function createSelectable<P = {}, T = any>(
   component: React.Component<P> | React.StatelessComponent<P>
-): React.ComponentClass<P & SeelctableProperties<T>>;
+): React.ComponentClass<P & SelectableProperties<T>>;
