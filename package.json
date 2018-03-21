@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "",
   "main": "dist/react-selectable-extended.js",
+  "typings": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git://github.com/jmfirth/react-selectable-extended.git"
