@@ -1,12 +1,12 @@
 {
   "name": "@geekhive/react-selectable-extended",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "dist/react-selectable-extended.js",
   "typings": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jmfirth/react-selectable-extended.git"
+    "url": "git://github.com/geekhive/react-selectable-extended.git"
   },
   "scripts": {
     "build": "node node_modules/webpack/bin/webpack",
@@ -28,7 +28,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jmfirth/react-selectable-extended/issues"
+    "url": "https://github.com/geekhive/react-selectable-extended/issues"
   },
   "devDependencies": {
     "babel-core": "^6.4.5",
